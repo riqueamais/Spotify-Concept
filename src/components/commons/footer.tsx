@@ -4,14 +4,14 @@ export const Footer = () => {
     return (
         <footer className="px-6 py-4 flex items-center justify-between border-t border-zinc-700 ">
           <div className="flex items-center gap-3">
-            <img id="single" className="w-full ml-0.5 rounded-md" src="/single.png" alt="single-play"/>
+            <img id="single" className="w-full ml-0.5 rounded-md" src="/single.png" alt="single"/>
             <div className="flex flex-col gap-2">
               <strong className="font-normal">Conexões de Máfia (feat. Rich The Kid)</strong>
               <span id="feat" className="text-xs">Matuê, Rich The Kid</span>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center gap-2">
-            <div className="flex items-center gap-6">
+          <div>
+            <div className="flex flex-grow justify-center items-center gap-6">
               <Shuffle size={20} className="text-green-400"/>
               <SkipBack size={20} className="text-zinc-200" />
               <button className="w-10 h-10 flex items-center justify-center pl-1 rounded-full bg-white text-black">
