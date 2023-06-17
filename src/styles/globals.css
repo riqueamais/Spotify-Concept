@@ -71,3 +71,16 @@ footer {
   color: #a1a1a1;
   margin-top: -8px;
 }
+
+@media (max-width: 1330px) {
+  #single {
+    width: 17%;
+  }
+  strong {
+    font-size: 13px;
+  }
+  main {
+    margin-right: 1.3rem;
+    margin-top: 5rem;
+  }
+}

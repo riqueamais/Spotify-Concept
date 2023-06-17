@@ -4,13 +4,13 @@ export const Footer = () => {
     return (
         <footer className="px-6 py-4 flex items-center justify-between border-t border-zinc-700 ">
           <div className="flex items-center gap-3">
-            <img id="single" className="w-8 rounded-md" src="/single.png" alt="single"/>
+            <img id="single" className="w-14 rounded-md" src="/single.png" alt="single"/>
             <div className="flex flex-col gap-2">
               <strong className="font-normal">Conexões de Máfia (feat. Rich The Kid)</strong>
               <span id="feat" className="text-xs">Matuê, Rich The Kid</span>
             </div>
           </div>
-          <div className="flex flex-col ml-32">
+          <div className="flex flex-col ml-28">
             <div className="flex justify-center items-center gap-6">
               <Shuffle size={20} className="text-green-400"/>
               <SkipBack size={20} className="text-zinc-200" />
